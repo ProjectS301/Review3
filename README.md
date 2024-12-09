@@ -292,6 +292,7 @@ cloudinary.cloud.name=${CLOUDINARY_CLOUD_NAME}
 clodinary.api.key=${CLOUDINARY_API_KEY}
 cloudinary.api.secret=${CLOUDINARY_API_SECRET}
 
+---
 Replace the placeholders ${CLOUDINARY_CLOUD_NAME}, ${CLOUDINARY_API_KEY}, ${CLOUDINARY_API_SECRET} with the corresponding values from your Cloudinary dashboard.
 
 After the dependencies are installed and OAuth credentials setup you can start the application. Use your IDE's run feature, or in the terminal, execute `mvn spring-boot:run`. This command will launch the application and make it accessible locally.
